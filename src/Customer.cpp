@@ -23,6 +23,11 @@ std::string Customer::getName() const {
     return name;
 }
 
+double Customer::amountFor(const Rental& r) const
+{
+return 0;
+}
+
 // add a rental to this customer
 void Customer::addRental(const Rental& rental) {
 
